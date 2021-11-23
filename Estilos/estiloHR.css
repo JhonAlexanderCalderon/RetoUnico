@@ -1,0 +1,411 @@
+*{
+    
+}
+nav{
+    width: 100%;
+    height: 4em;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0,0, 0.15);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+nav button{
+    float: right;
+    text-decoration: none;
+    margin: 1em 6em 0em 0em; 
+    background-color: transparent;
+    border:none;
+  
+}
+
+#menu{
+    width: 45px;
+    height: 5px;
+    background-color: rgb(53, 54, 105);
+    margin: 6px 0;
+}
+.titulos{
+    padding: 2em 2em 0em 5em;
+    color: #acacac85;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav img{
+    padding: 1em 2em 0em 3.5em;
+}
+
+.segundoTitulos{
+    overflow: hidden;
+    width: 100%;
+    margin-top: 1em;
+    border-bottom: slategray;
+ 
+    
+}
+.segundoTitulos a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0em 0em 0em 5.5em;
+    color: #9B9CA6;
+}
+
+.lineaH{
+    border-bottom: 1px solid #B2B3BE;
+    margin: 0em 5em 0em em;
+}
+
+section{
+    padding: 1em 0em 0em 3em;
+    width: 100%;
+
+}
+ section ul{
+    list-style-type: none;
+ }
+ 
+ section li{
+     border-radius: 1.5em;
+     float: left;
+     padding: 2em 2em 2em 2em;
+     margin: 0em 2% 0em 0em;
+     box-shadow: 0px 0px 10px 2px rgba(0, 0,0, 0.15);
+     width: 25%;
+     height: 15em;
+
+ }
+
+ li img{
+     object-fit: cover;
+ }
+ .panel-img {
+    width: 100%;
+    height: 100%;
+  }
+.cuentaSeccion{
+    align-items: center;
+    
+}
+  .cuenta li{
+    width: 20% ;
+    height: 15%;
+    padding: 2em ;
+    margin: 1em;
+  }
+
+  .cuenta h4 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:hsl(231, 4%, 37%);
+    text-decoration: none;
+    
+  }
+
+  .cuenta p{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #9B9CA6;
+      font-size: 14px;
+      
+  }
+
+  .cuentaIcono{
+      padding: 0em ;
+      margin: 0em;
+  }
+  .infoPersonal{
+      width: 50%;
+      padding: 2em 1em 0em 5.5em;
+      line-height: 1em;
+      float: left;
+      
+  }
+  .infoPersonal h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:hsl(231, 4%, 37%);
+    text-decoration: none;
+    /* line-height: 1em; */
+  }
+  .infoPersonal p{
+    float: left;
+    color:#5c5d63;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 1em; */
+  }
+
+  .infoPersonal a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right; 
+    color: rgb(53, 54, 105);
+    font-weight: 700; 
+  }
+
+  .infoPersonal .lineaH{
+    padding: 1.5em;
+    border-bottom: 1px solid #B2B3BE;
+  }
+
+  .infoPersonalAside{
+      float: right;
+      width: 25%;
+      height: 50%;
+      border-style: solid;
+      padding: 2em 2em 2em 2em;
+      margin: 5em 3em 0em 1em;
+      border-radius: 10px;
+      border-color:hsl(229, 7%, 70%);
+      border-width: 1px;
+      color:rgb(53, 54, 105) ;
+  }
+
+  .infoPersonalAside img{
+      /* background-color: gray; */
+  }
+
+  .infoPersonalAside H4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
+  .infoPersonalAside P{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#5c5d63;
+    line-height: 1.5em;
+  }
+
+
+  body {
+    padding:0;
+    margin:0;
+
+background-size:fit;
+  overflow:hidden;
+}
+/* .box{
+    width:300px;
+    height:auto;
+    background:rgba(0,0,0,0.4);
+    top:50%;
+    left:50%;
+     position:absolute;
+    box-sizing:border-box;
+    border-radius:10px;
+    transform:translate(-50%,-50%);
+    padding:60px 20px;
+    
+} */
+
+/* ALternativa clase box para que encaje el diseno */
+.box{
+    width:300px;
+    height:auto;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0,0, 0.15);
+    /* background:rgba(0,0,0,0.4); */
+    top:55%;
+    left:18%;
+    position:absolute;
+    box-sizing:border-box;
+    border-radius:10px;
+    transform:translate(-50%,-50%);
+    padding:60px 20px;
+    float: left;
+}
+.logueoAside{
+    float: right;
+    width: 60%;
+    height: 100%;
+    margin: 2em 2em 2em 2em;
+    background-color: hsl(229, 7%, 70%);
+
+}
+/* ************************************seccion de login ************************************* */
+.form-box{
+    width: 380px;
+    height: 480px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0,0, 0.15);
+    box-sizing:border-box;
+    border-radius:10px;
+    padding:60px 50px;
+    float: left;
+    left: 6%;
+    position: absolute;
+	margin: 6% auto;
+	/* background: #fff; */
+	padding: 5px;
+	overflow: hidden;
+
+}
+/* botones de login y register */
+.button-box{
+    width: 230px;
+	margin: 35px auto;
+	position: relative;
+    background: rgb(221, 220, 220);
+	/* box-shadow:0px 0px 10px 2px rgba(0, 0,0, 0.15); */
+	border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+    color:white;
+}
+
+#btn{
+    top: 0;
+	left: 0;
+	position: absolute;
+	width: 120px;
+	height: 100%;
+    background:rgb(53, 54, 105);
+	/* background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%); */
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+    color: white;
+    background: rgb(53, 54, 105);
+	border:0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+
+#small{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute; 
+}
+
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+
+/* *******************************seccion perfil de usuario ****************************/
+.profile{
+    
+    position:relative;
+    border-radius:50%;
+    top:calc(-50px/2);
+    left:calc(50% - 50px);
+    overflow:hidden;
+}
+ h2
+ {
+     padding:0 0 10px;
+     text-align:center;
+     font-weight:bold;
+     font-size:18px;
+     color:rgb(53, 54, 105);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .box .lable{
+     margin:0;
+     padding:1em 0em 0em 0em ;
+     color:rgb(53, 54, 105);
+     font-weight:bold;
+     font-size:14px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .box input{
+     width:100%;
+     margin-bottom:10px;
+     border:none;
+     border-bottom: 1px solid #B2B3BE;
+     background:transparent;
+     height:40px;
+     
+ }
+    
+.box input[type="email"],
+.box input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #B2B3BE;
+    background:transparent;
+    height:40px;
+    outline:none;
+    color: black;
+    font-size:16px;
+}
+::placeholder
+{
+    /* color: rgba(255, 255, 255, 0.603); */
+    color: #B2B3BE;
+}
+.box input[type="submit"]
+{
+    height:40px;
+    background-color:rgb(53, 54, 105);
+    border-radius:10px;
+    font-weight:100;
+    color:white;
+    cursor:pointer;
+    font-size:15px;
+    width: 50%;
+    float: right;
+    
+}
+.box input[type="submit"]:hover
+{
+    
+    background-color: #0f3781c4;
+    color:#000;
+}
+.box .forpas
+{
+    font-weight:bold;
+    color:;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+    
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container.menu{
+    width: 18rem;
+}
